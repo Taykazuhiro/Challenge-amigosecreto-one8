@@ -13,7 +13,27 @@ function adicionarAmigo(){
     } else {
         amigos.push(novoAmigo);
         console.log(amigos.length);
+        atualizarListaAmigos();
         limparCampo ();
+    }
+}
+
+function atualizarListaAmigos (){
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = '';
+        for(var i=0; i < amigos.length; i++){
+        lista.innerHTML += `<li>${amigos[i]}`;
+    }
+}
+
+function sortearAmigo(){
+    if (amigos == ''){
+        alert('Digite o nome de pelo menos 2 amigos para sortear');
+    }else {
+        let indice = Math.floor(Math.random() * amigos.length);
+        let amigoSorteado = amigos[indice];
+        let resultado = document.getElementById('resultado');
+        resultado.innerHTML += `<li> ${amigoSorteado}`;
     }
 }
 
