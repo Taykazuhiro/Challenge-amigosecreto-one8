@@ -40,6 +40,9 @@
 
 ## Application Layout
 
+<p align="center">
+<img src = "assets\vídeo projeto challenge (1).gif">
+</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
