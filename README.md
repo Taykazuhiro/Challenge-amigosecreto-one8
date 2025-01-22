@@ -49,7 +49,7 @@
 
 ## How to run the application
 
-Acesse o link: 
+[Access this link](https://taykazuhiro.github.io/Challenge-amigosecreto-one8/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
