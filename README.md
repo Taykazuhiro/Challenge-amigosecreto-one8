@@ -1,28 +1,22 @@
 <a id="readme-top"></a>
-<h1 align="center">Secret Friend Project Drawer </h1> 
+<h1 align="center">Secret Friend Drawer Project </h1> 
+<p align="center">
+<img src ="https://github.com/Taykazuhiro/Challenge-amigosecreto-one8/blob/c4a0185ada2629a35e9bb415522fab3e96ef2ae8/assets/amigo-secreto.png"/>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-developing-brightgree"/>
-  <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/>
-  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby&message=2.6.3&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby%20On%20Rails%20&message=6.0.2.2&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E100&color=GREEN&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
-
-> Status do Projeto: :heavy_check_mark: :warning: (concluido, em desenvolvimento, etc)
 
 ### Summary 
 
-:small_blue_diamond: [About the Project](#descrição-do-projeto)
+:small_blue_diamond: [About the Project](#about-the-project)
 
 :small_blue_diamond: [Features](#features)
 
-:small_blue_diamond: [How to run the Application](#How-to-run-the-Application-arrow_forward)
+:small_blue_diamond: [How to run the Application](#How-to-run-the-application)
 
-:small_blue_diamond: [Roadmap](#Roadmap-exclamation)
+:small_blue_diamond: [Roadmap](#Roadmap)
 
 
 ## About the Project 
@@ -44,31 +38,31 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Application Layout :dash:
+## Application Layout
 
-gif aqui
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## How to run the Application :arrow_forward:
+## How to run the application
 
 Acesse o link: 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Languages, Libs and Projects :books:
+## Languages, Libs and Projects
 
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [HTML/CSS](Desenvolvido por Alura) 
+- [HTML/CSS](https://www.alura.com.br) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Roadmap :exclamation:
-## Backlog
-
-<!-- ROADMAP -->
 ## Roadmap
+- [X] Implement a function to add friends
+- [X] Implements a function to update the friends list
+- [X] Implement a function to draw friends
+
+## Backlog
 
 - [ ] Develop a check to ensure the same name is drawn only once
 - [ ] Create a button to restart the draw
@@ -78,9 +72,9 @@ See the [open issues](https://github.com/Taykazuhiro/Challenge-amigosecreto-one8
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Developers/Supporters :octocat:
+## Developers/Supporters
 
-| [<img src="https://avatars.githubusercontent.com/u/187814402?s=96&v=4" width=115><br><sub>Tayna Silva</sub>](https://github.com/Taykazuhiro) |  [<img src="https://avatars.githubusercontent.com/u/4975968?s=200&v=4" width=115><br><sub>Alura Team</sub>](https://github.com/alura-cursos) |  [<img src="https://www.oracle.com/a/ocom/img/rh03-one-br-logo.png" width=115><br><sub>Diana Regina</sub>](https://github.com/oracle) |
+| [<img src="https://avatars.githubusercontent.com/u/187814402?s=96&v=4" width=115><br><sub>Tayna Silva</sub>](https://github.com/Taykazuhiro) |  [<img src="https://avatars.githubusercontent.com/u/4975968?s=200&v=4" width=115><br><sub>Alura Team</sub>](https://github.com/alura-cursos) |  [<img src="https://www.oracle.com/a/ocom/img/rh03-one-br-logo.png" width=115><br><sub>Oracle Next Education</sub>](https://github.com/oracle) |
 | :---: | :---: | :---: 
 
 ## Licença 
