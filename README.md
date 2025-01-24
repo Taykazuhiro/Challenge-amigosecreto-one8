@@ -64,11 +64,10 @@
 - [X] Implement a function to add friends
 - [X] Implements a function to update the friends list
 - [X] Implement a function to draw friends
+- [X] Develop a check to ensure the same name is drawn only once
 
 ## Backlog
 
-- [ ] Develop a check to ensure the same name is drawn only once
-- [ ] Create a button to restart the draw
 - [ ] Develop a check to prevent the same name from being entered more than once
 
 See the [open issues](https://github.com/Taykazuhiro/Challenge-amigosecreto-one8/issues) for a full list of proposed features (and known issues).
