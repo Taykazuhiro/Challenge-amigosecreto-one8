@@ -28,12 +28,35 @@ function atualizarListaAmigos (){
 
 function sortearAmigo(){
     if (amigos == ''){
-        alert('Digite o nome de pelo menos 2 amigos para sortear');
-    }else {
+        alert('Todos os nomes foram sorteados. Por favor inicie um novo sorteio');
+        let botaoSortear = document.getElementById('sortear');
+        botaoSortear.innerHTML = 'Novo Sorteio';
+        novoSorteio ();
+    }else{
         let indice = Math.floor(Math.random() * amigos.length);
         let amigoSorteado = amigos[indice];
+        checarNomeSorteado(amigoSorteado);
         let resultado = document.getElementById('resultado');
-        resultado.innerHTML += `<li> ${amigoSorteado}`;
+        resultado.innerHTML += `<li> ${amigoSorteado}`; 
     }
+}
+
+function checarNomeSorteado(amigoSorteado){
+let index = amigos.indexOf(amigoSorteado);
+if (index >-1){
+    amigos.splice(index,1);
+}else{
+    return amigoSorteado;
+}
+}
+
+function novoSorteio (){
+    limparCampo();
+    let listasHTML = document.getElementById('listas');
+    listasHTML.innerHTML = 
+    `
+    <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+    <ul id="resultado" class="result-list" aria-live="polite"></ul>
+    `
 }
 
