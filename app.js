@@ -10,7 +10,8 @@ function adicionarAmigo(){
     let novoAmigo = document.querySelector('#amigo').value;
     if (novoAmigo == '' || contemNumeros.test(novoAmigo)){
         alert('Por favor, insira um nome.');
-    } if (amigos.includes(novoAmigo)){
+        limparCampo();
+    } else if (amigos.includes(novoAmigo)){
         alert('O nome já está na lista, digite um novo nome');
         limparCampo();
     }else{
