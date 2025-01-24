@@ -29,8 +29,6 @@ function atualizarListaAmigos (){
 function sortearAmigo(){
     if (amigos == ''){
         alert('Todos os nomes foram sorteados. Por favor inicie um novo sorteio');
-        let botaoSortear = document.getElementById('sortear');
-        botaoSortear.innerHTML = 'Novo Sorteio';
         novoSorteio ();
     }else{
         let indice = Math.floor(Math.random() * amigos.length);
@@ -55,8 +53,10 @@ function novoSorteio (){
     let listasHTML = document.getElementById('listas');
     listasHTML.innerHTML = 
     `
-    <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
-    <ul id="resultado" class="result-list" aria-live="polite"></ul>
+    <div id="listas">
+                <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+                <ul id="resultado" class="result-list" aria-live="polite"></ul>
+            </div>
     `
 }
 
